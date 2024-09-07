@@ -10,4 +10,7 @@ WORKDIR /app
 
 COPY . .
 
-CMD ["python", "bot.py"]
+# Expose port 8080 for your application (replace with your desired port)
+EXPOSE 8080
+
+CMD ["python", "bot.py
